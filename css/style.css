@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Poller+One');
+
+body {
+    background-color: black;
+    background-image: url('https://timedotcom.files.wordpress.com/2017/05/star-wars_1024.jpg');
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+table {
+    margin: 20px auto;
+    max-width: 90vw;
+    table-layout: fixed;
+    /*border: 1px solid black;*/
+}
+tr:first-child td {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #a89984;
+}
+td {
+    /*border: 1px solid black;*/
+    word-wrap: break-word;
+    max-width: 5vw;
+}
+td:nth-child(odd) {
+    background-color: rgba(235, 219, 178, 0.9);
+}
+td:nth-child(even) {
+    background-color: rgba(213, 196, 161, 0.9);
+}
+button {
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Poller One', cursive;
+    font-size: 2em;
+    transition: all 0.2s ease-in-out;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+button:hover {
+    background-color: #a89984;
+}
