@@ -2,7 +2,7 @@
 
 body {
     background-color: black;
-    background-image: url('https://timedotcom.files.wordpress.com/2017/05/star-wars_1024.jpg');
+    background-image: url('../img/star-wars.jpg');
     background-size: 100%;
     background-position: center center;
     background-repeat: no-repeat;
